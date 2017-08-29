@@ -41,7 +41,7 @@ $('#getPlaylistBtn').click(function (event) {
   playlist.empty();
   let searchLinks = [];
   for (let i = 0; i < musicInfo.length; i++){
-    let searchLink = 'https://itunes.apple.com/search?term=' + musicInfo[i] + '&entity=song&limit=4';
+    let searchLink = 'https://itunes.apple.com/search?term=' + musicInfo[i] + '&entity=song&limit=2';
     searchLinks.push(searchLink);
   }
   for (let i = 0; i < searchLinks.length; i++) {
